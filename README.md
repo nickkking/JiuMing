@@ -2,14 +2,13 @@
 JiuMing - The On-Chain Fortune Teller AI
 ---
 
-我做了一个会算命的 AI Agent 
-Github: https://github.com/nickkking/JiuMing
+[我做了一个会算命的 AI Agent ](https://github.com/nickkking/JiuMing)
 
 ## 技术规格
 - Claw: OpenClaw Version2026.3.2
 - LLM: claude-opus-4.6
 - OnchainOS: 5/5 能力全覆盖
-- 
+
 ## 提示词
 ```markdown
 你是「韭命大师（Master JiuMing）」——一个基于 OKX OnchainOS + OpenClaw 的链上命理 AI Agent。
@@ -493,7 +492,7 @@ Github: https://github.com/nickkking/JiuMing
 **用玄学降低理解门槛，用数据保证可信度，用 Agent 完成闭环。**
 ```
 
-## 应用场景 
+## 应用场景 & 成品互动截图/视频 
 ### 场景 1：链上命格分析
 
 | 项目               | 说明                                                                                                                                                                                             |
@@ -504,7 +503,11 @@ Github: https://github.com/nickkking/JiuMing
 | **OnchainOS 能力** | • **Connect**: `connect_okx_wallet()` 连接用户钱包<br>• **Wallet**: `get_wallet_balance()` 获取多链余额<br>• **Wallet**: `get_token_holdings()` 获取完整持仓<br>• **Wallet**: `get_transaction_history()` 获取交易记录 |
 | **创新点**          | • **交互创新**: 首个将"算命"体验引入链上分析<br>• **叙事创新**: 用"五行"替代"资产配置"，降低理解门槛<br>• **命格系统**: 钻石手/纸手/抄底王/追高侠等趣味标签<br>• **传播创新**: 命格卡片天然适合社交分享                                                                 |
 | **可复制性**         | • **五行映射表**: 代币类型→五行属性的映射规则可直接复用<br>• **命格判定算法**: 基于持仓周期、交易频率的分类逻辑<br>• **卡片生成模板**: 可视化报告的设计框架<br>• **迁移场景**: 可改为西方星座版、塔罗版、中医体检版                                                               |
-成品互动截图/视频 
+<img width="1905" height="913" alt="1" src="https://github.com/user-attachments/assets/12f77651-79dd-4208-9f9b-b66a7a1718f0" />
+<img width="1892" height="854" alt="2" src="https://github.com/user-attachments/assets/942af87c-9812-446c-8889-974b24f7f4c8" />
+<img width="1901" height="853" alt="3" src="https://github.com/user-attachments/assets/1e09ef3e-5c49-4db8-975d-04d2abc461ca" />
+
+
 ### 场景 2：链上姻缘速配
 | 项目               | 说明                                                                                                                                                        |
 | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -514,6 +517,10 @@ Github: https://github.com/nickkking/JiuMing
 | **OnchainOS 能力** | • **Connect**:  连接用户钱包<br>• **Wallet**:  获取用户持仓,对方持仓<br>• **Market**: `get_token_price()` 计算持仓价值                                                          |
 | **创新点**          | • **链上社交**: 首个基于链上数据的"缘分配对"功能<br>• **双地址分析**: 创新的对比分析场景<br>• **知名地址彩蛋**: 识别并吐槽 知名钱包地址<br>• **病毒传播**: "我和 xx缘分 87 分"天然话题性                                  |
 | **可复制性**         | • **双地址对比逻辑**: 任意两个地址的风格对比算法<br>• **缘分值计算**: 基于持仓重合度、风格差异的评分模型<br>• **知名地址库**: 巨鲸/KOL 地址识别的数据结构<br>• **迁移场景**: 可扩展为"链上相亲"、"组队匹配"等社交功能                     |
+<img width="1914" height="953" alt="4" src="https://github.com/user-attachments/assets/bb550a2f-c1ee-495f-8522-54c80291858a" />
+<img width="1909" height="889" alt="5" src="https://github.com/user-attachments/assets/10d6e4eb-8a16-429b-be21-a5ca076c14d2" />
+
+
 ### 场景 3：改命法事（一键调仓）
 | 项目               | 说明                                                                                                                                                                          |
 | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -523,6 +530,10 @@ Github: https://github.com/nickkking/JiuMing
 | **OnchainOS 能力** | • **Connect**:  确认连接<br>• **Wallet**:  获取当前持仓， 完整持仓分析<br>• **Market**:  获取实时价格<br>• **Trade**: 获取最优路由报价<br>• **Connect**:  请求签名<br>• **Trade**:  执行交易.确认交易完成                |
 | **创新点**          | • **全能力联动**: 唯一整合 OnchainOS 全部 5 大能力的场景<br>• **端到端闭环**: 从诊断→方案→执行→确认的完整链路<br>• **玄学包装交易**: "改命法事"比"执行交易"更有仪式感<br>• **命格对比**: 交易前后的可视化对比，增强成就感<br>• **安全设计**: 滑点保护、限额保护、二次确认 |
 | **可复制性**         | • **多能力编排模板**: 5 能力联动的调用链路可作为复杂场景范例<br>• **交易确认 UX**: "画押"替代"签名"的创意可迁移<br>• **命格变化可视化**: 持仓前后对比的展示逻辑<br>• **迁移场景**: 可用于任何需要多步骤链上操作的 AI 助手                                   |
+<img width="1917" height="890" alt="6" src="https://github.com/user-attachments/assets/db04bd3a-e95b-4974-a403-493c5c653a60" />
+<img width="1915" height="942" alt="7" src="https://github.com/user-attachments/assets/de37bd82-aacc-4ef7-88d6-703f62f6bc46" />
+
+
 ### 场景 4：今日运势 + x402 付费解锁
 | 项目               | 说明                                                                                                                                                                                                                                                                                                          |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -532,6 +543,8 @@ Github: https://github.com/nickkking/JiuMing
 | **OnchainOS 能力** | • **Market**: `get_token_price()` 获取实时价格<br>• **Market**: `get_market_analytics()` 获取成交量、情绪指数<br>• **Market**: `get_onchain_analytics()` 获取鲸鱼动向<br>• **Payment**: `create_x402_payment()` 创建香火钱支付<br>• **Connect**: `request_transaction_signature()` 签名支付<br>• **Payment**: `verify_x402_payment()` 验证支付完成 |
 | **创新点**          | • **付费模式创新**: "香火钱"替代"订阅费"，心理接受度更高<br>• **x402 首创应用**: 首个用 x402 实现 AI 服务微支付的案例<br>• **X Layer 优势**: Gas 费近乎为零，让小额付费经济可行<br>• **签诗包装**: 将技术分析包装成签诗，降低认知负担                                                                                                                                                    |
 | **可复制性**         | • **x402 付费模板**: 免费预览→付费解锁的流程可直接复用<br>• **签诗生成逻辑**: 基于市场数据的运势判定算法<br>• **分层定价**: 不同深度分析对应不同香火钱金额<br>• **迁移场景**: 可用于任何 AI 内容付费场景（报告、咨询、教程）                                                                                                                                                                   |
+<img width="3814" height="1873" alt="image" src="https://github.com/user-attachments/assets/c8788a92-70a4-4d83-aebc-10c638526ddf" />
+
 ---
 能力调用总览
 | 场景       | Connect | Wallet | Market | Trade | Payment | 能力数     |
